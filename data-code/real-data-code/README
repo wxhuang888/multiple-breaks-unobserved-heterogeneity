@@ -1,0 +1,49 @@
+#1. Workflow for Obtaining Empirical Figures in the Paper
+
+(1) Figure 1 and 2 in the paper
+   (a) Open the folder named "real-data-code."
+   (b) Run the script “MAIN_EST_PLOTS.m” in matlab.
+
+(2) Figure 12 in the supplementary material
+   (a) Open the folder named "real-data-code."
+   (b) Run the script “MAIN_EST_PLOTS.m” in matlab.
+
+   
+#2. Workflow for Obtaining Empirical Tables in the Paper
+
+(1)Tables 13 in the supplementary material
+  (a) Open the folder named "real-data-code."
+  (b) Run the script “Main_Summary_Statistics.m” in matlab.
+  
+(2)Tables 14 in the supplementary material
+  (a) Open the folder named "real-data-code."
+  (b) Run the scripts “MAIN_EST_PLOTS.m” and “Main_BFK.m” in matlab.
+  (c) Obtain the results from "sample10_BFK.mat." The calendar dates corresponding to the numerical break date values can be found in "dates.xlsx."
+
+(3)Table 15 in the supplementary material
+  (a) Open the folder named "real-data-code."
+  (b) Run the script “MAIN_EST_PLOTS.m” in matlab.
+  (c) Summarize the pooled regression results from the table in "sample10_est_all.mat" and the group-specific results from "sample10_est_groupcoeff.mat." The calendar dates corresponding to the numerical break date values can be found in "dates.xlsx."
+
+#3. Data Dictionary
+
+Our data is contained in two .mat datasets: sample10_all.mat and SP500.mat.
+
+(1) sample10_all.mat
+
+This file contains the following variables: firm-level returns, market beta, size, book-to-market ratio, and momentum.
+
+Column 1: Firm ID (PERMNO in CRSP)
+Column 2: Generated Firm Numbers (for identification purposes only) 
+Column 3: Monthly Dates (in Stata format)
+Column 4: Monthly Returns
+Column 5: Market Beta
+Column 6: Size
+Column 7: Book-to-Market Ratio
+Column 8: Momentum
+(2) SP500.mat
+
+This file contains the monthly S&P 500 index values.
+
+Column 1: Dates
+Column 2: S&P 500 Index
