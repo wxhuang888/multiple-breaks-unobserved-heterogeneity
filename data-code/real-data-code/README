@@ -41,6 +41,7 @@ Column 5: Market Beta
 Column 6: Size
 Column 7: Book-to-Market Ratio
 Column 8: Momentum
+
 (2) SP500.mat
 
 This file contains the monthly S&P 500 index values.
