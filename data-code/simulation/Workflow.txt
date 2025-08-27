@@ -30,6 +30,7 @@ For Figures 10--11, use “Step1_DGP_Group_FE_Tdist_Multi_BS.m” in the folder 
 
 (4) Figures 3--7, Tables 6--7 in the supplementary material
    * The values summarizes results obtained using replication codes from Qian and Su (2016a), Qian and Su (2016b), Okui and Wang (2021), Lumsdaine, Okui, Wang (2023): 
+Unzip the file “reference.zip” in the folder named "simulation/Comparison";
 Run the scripts starting with “Step2_RUN_ALL_comp_xxx.m” in the folder named "simulation/Comparison" for different methods. These codes are adapted from the replications codes of Qian and Su (2016a), Qian and Su (2016b), Okui and Wang (2021), and Lumsdaine, Okui, Wang (2023). 
 
 
