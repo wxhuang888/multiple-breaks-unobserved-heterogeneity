@@ -1,5 +1,5 @@
 # Multiple-breaks-unobserved-heterogeneity
-Code to reproduce simulation results and real data analysis results from the paper "Estimating Multiple Structural Breaks in Large Panels With Unobserved Heterogeneity." All code for this paper can be found in the main “data-code” folder, which is organized into two subfolders. 
+Code to reproduce simulation results and real data analysis results from the paper "Estimating Multiple Structural Breaks in Large Panels With Unobserved Heterogeneity." All code for this paper can be found in the “data-code” folder, which is organized into two sub-folders. 
 
  1. To reproduce the empirical results, run the .m files within the “real-data-code” folder. 
 
