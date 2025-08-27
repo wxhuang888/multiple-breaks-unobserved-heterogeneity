@@ -1,4 +1,4 @@
-#1. Workflow for Obtaining Empirical Figures in the Paper
+# 1. Workflow for Obtaining Empirical Figures in the Paper
 
 (1) Figure 1 and 2 in the paper
    (a) Open the folder named "real-data-code."
@@ -9,7 +9,7 @@
    (b) Run the script “MAIN_EST_PLOTS.m” in matlab.
 
    
-#2. Workflow for Obtaining Empirical Tables in the Paper
+# 2. Workflow for Obtaining Empirical Tables in the Paper
 
 (1)Tables 13 in the supplementary material
   (a) Open the folder named "real-data-code."
@@ -25,7 +25,7 @@
   (b) Run the script “MAIN_EST_PLOTS.m” in matlab.
   (c) Summarize the pooled regression results from the table in "sample10_est_all.mat" and the group-specific results from "sample10_est_groupcoeff.mat." The calendar dates corresponding to the numerical break date values can be found in "dates.xlsx."
 
-#3. Data Dictionary
+# 3. Data Dictionary
 
 Our data is contained in two .mat datasets: sample10_all.mat and SP500.mat.
 
