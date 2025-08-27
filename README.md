@@ -6,3 +6,10 @@ To reproduce the empirical results, run the .m files within the “real-data-cod
 To generate the simulation results, run the .m files within the “simulation” folder. 
 
 For detailed instructions, please refer to the workflow documentation provided in each respective folder.
+
+# MATLAB Package Installation
+The results in the paper are generated under
+1. MATLAB 2022b
+2. CVX 2.2 (http://cvxr.com/cvx/download/)
+
+CVX must be installed and linked with Matlab.
